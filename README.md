@@ -1,12 +1,41 @@
+<div align="center">
+
 # AI Website Cloner Template
 
-<a href="https://github.com/JCodesMore/ai-website-cloner-template/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue" alt="MIT License" /></a> <a href="https://github.com/JCodesMore/ai-website-cloner-template/stargazers"><img src="https://img.shields.io/github/stars/JCodesMore/ai-website-cloner-template?style=flat" alt="Stars" /></a> <a href="https://discord.gg/hrTSX5yTpB"><img src="https://img.shields.io/discord/1400896964597383279?label=discord" alt="Discord" /></a> <img src="https://img.shields.io/endpoint?url=https://gittokens.rsamf.com/badge/JCodesMore/ai-website-cloner-template" alt="tokens" />
+### Clone any website with one command
 
-A reusable template for reverse-engineering any website into a clean, modern Next.js codebase using AI coding agents. 
+Give your AI coding agent a URL and watch it recreate the website as a clean Next.js app.
 
-**Recommended: [Claude Code](https://docs.anthropic.com/en/docs/claude-code) with Opus 5 for best results** — but works with a variety of AI coding agents.
+**Best results with [Claude Code](https://docs.anthropic.com/en/docs/claude-code) + Opus 5. Works with Codex, Cursor, Gemini, and more.**
 
-Point it at a URL, run `/clone-website`, and your AI agent will inspect the site, extract design tokens and assets, write component specs, and dispatch parallel builders to reconstruct every section.
+[![Use this template](https://img.shields.io/badge/Use_this_template-Create_your_copy-2ea44f?style=for-the-badge&logo=github&logoColor=white)](https://github.com/JCodesMore/ai-website-cloner-template/generate) [![Discord](https://img.shields.io/badge/Join_the_community-Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/hrTSX5yTpB)
+
+[Quick Start](#quick-start) · [Watch Demo](#demo) · [Supported Platforms](#supported-platforms)
+
+<a href="https://github.com/JCodesMore/ai-website-cloner-template/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue" alt="MIT License" /></a> <a href="https://github.com/JCodesMore/ai-website-cloner-template"><img src="https://img.shields.io/github/stars/JCodesMore/ai-website-cloner-template?style=flat" alt="Stars" /></a> <img src="https://img.shields.io/endpoint?url=https://gittokens.rsamf.com/badge/JCodesMore/ai-website-cloner-template" alt="tokens" />
+
+  <a href="https://trendshift.io/repositories/24302?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-24302" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/repositories/24302" alt="JCodesMore%2Fai-website-cloner-template | Trendshift" width="250" height="55" /></a> <a href="https://www.star-history.com/jcodesmore/ai-website-cloner-template/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/badge?repo=JCodesMore/ai-website-cloner-template&amp;theme=dark" /><source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/badge?repo=JCodesMore/ai-website-cloner-template" /><img alt="Star History Global Rank" src="https://api.star-history.com/badge?repo=JCodesMore/ai-website-cloner-template" width="216" height="55" /></picture></a>
+
+<br />
+<sub><strong>SPONSORED BY</strong></sub>
+<br /><br />
+<a href="https://www.rapidproxy.io/?ref=JCM"><img src="docs/assets/sponsors/rapidproxy-banner.png" alt="RapidProxy residential proxy service" width="680" /></a>
+<br />
+<sub>Power your scraping and automation with 90M+ residential IPs, 500MB free traffic, and non-expiring bandwidth. <a href="https://www.rapidproxy.io/?ref=JCM">Explore RapidProxy →</a></sub>
+<br /><br />
+<a href="https://www.atlascloud.ai/?utm_source=github&amp;utm_medium=sponsor&amp;utm_campaign=ai-website-cloner-template">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/assets/sponsors/atlas-cloud-logo-white.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="docs/assets/sponsors/atlas-cloud-logo.svg" />
+    <img src="docs/assets/sponsors/atlas-cloud-logo.svg" alt="Atlas Cloud" width="240" />
+  </picture>
+</a>
+<br />
+<sub>Generate AI images, video, audio, and 3D assets through one API. <a href="https://www.atlascloud.ai/?utm_source=github&amp;utm_medium=sponsor&amp;utm_campaign=ai-website-cloner-template">Explore Atlas Cloud →</a></sub>
+
+</div>
+
+---
 
 ## Demo
 
@@ -51,7 +80,7 @@ Point it at a URL, run `/clone-website`, and your AI agent will inspect the site
    ```
 6. **Customize** (optional) — after the base clone is built, modify as needed
 
-> Using a different agent? Open `AGENTS.md` for project instructions — most agents pick it up automatically.
+> Most supported clients expose `/clone-website` directly. If your client activates skills from natural-language requests, enter `Clone <target-url> using the clone-website workflow`. Project instructions are in `AGENTS.md`.
 
 ## Supported Platforms
 
@@ -61,6 +90,7 @@ Point it at a URL, run `/clone-website`, and your AI agent will inspect the site
 | [Codex CLI](https://github.com/openai/codex)                  | Supported                  |
 | [OpenCode](https://opencode.ai/)                              | Supported                  |
 | [GitHub Copilot](https://github.com/features/copilot)         | Supported                  |
+| [Kiro](https://kiro.dev/)                                    | Supported                  |
 | [Cursor](https://cursor.com/)                                 | Supported                  |
 | [Windsurf](https://codeium.com/windsurf)                      | Supported                  |
 | [Gemini CLI](https://github.com/google-gemini/gemini-cli)     | Supported                  |
@@ -69,7 +99,6 @@ Point it at a URL, run `/clone-website`, and your AI agent will inspect the site
 | [Continue](https://continue.dev/)                             | Supported                  |
 | [Amazon Q](https://aws.amazon.com/q/developer/)               | Supported                  |
 | [Augment Code](https://www.augmentcode.com/)                  | Supported                  |
-| [Aider](https://aider.chat/)                                  | Supported                  |
 
 ## Prerequisites
 
@@ -86,6 +115,14 @@ Point it at a URL, run `/clone-website`, and your AI agent will inspect the site
 ## How It Works
 
 The `/clone-website` skill runs a multi-phase pipeline:
+
+```mermaid
+flowchart LR
+    P1["1. Reconnaissance"] --> P2["2. Foundation"]
+    P2 --> P3["3. Component Specs"]
+    P3 --> P4["4. Parallel Build"]
+    P4 --> P5["5. Assembly and QA"]
+```
 
 1. **Reconnaissance** — screenshots, design token extraction, interaction sweep (scroll, click, hover, responsive)
 2. **Foundation** — updates fonts, colors, globals, downloads all assets
@@ -128,6 +165,10 @@ docs/
 scripts/
   sync-agent-rules.sh  # Regenerate agent instruction files
   sync-skills.mjs      # Regenerate /clone-website for all platforms
+.kiro/skills/          # Generated Kiro workspace skill
+.cline/skills/         # Generated Cline workspace skill
+.roo/skills/           # Generated Roo Code workspace skill
+.roo/commands/         # Generated Roo Code slash command
 AGENTS.md           # Agent instructions (single source of truth)
 CLAUDE.md           # Claude Code config (imports AGENTS.md)
 GEMINI.md           # Gemini CLI config (imports AGENTS.md)
@@ -164,8 +205,10 @@ Each script regenerates the platform-specific copies automatically. Agents that 
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=JCodesMore/ai-website-cloner-template&type=Date)](https://star-history.com/#JCodesMore/ai-website-cloner-template&Date)
+![Star History Chart](docs/assets/star-history.png)
 
 ## License
 
 MIT
+
+<sub>Translations: <a href="README.ja.md">日本語</a> · <a href="README.zh-CN.md">Simplified Chinese</a></sub>
